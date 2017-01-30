@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.projekt.danielgrabowski.apka.MainMenu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Sterowanie Dzwigu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:layout_weight="0.25" />
+
+        <Button
+            android:text="Wydaj Polecenie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:layout_weight="0.27" />
+
+        <Button
+            android:text="Lista Polecen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_weight="0.25" />
+
+        <Button
+            android:text="Wyjscie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:layout_weight="0.25" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

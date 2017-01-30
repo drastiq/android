@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">REST</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_lista_komend">ListaKomend</string>
+</resources>
